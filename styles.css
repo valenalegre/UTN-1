@@ -23,7 +23,7 @@ header nav ul li a:hover {
 }
 
 body {
-   background-image: url(/img/fondo.jpg);
+   background-image: url(img/fondo.jpg);
    background-size: cover;
    background-position: center;
    height: 30vh;
@@ -133,7 +133,7 @@ p  {
 
 .fondo-galeria {
       background-image: linear-gradient(rgba(0, 0, 0, 0.661), rgba(0, 0, 0, 0.5)),
-    url(/img/fondo-galeria.jpg);
+    url(img/fondo-galeria.jpg);
     background-repeat: repeat;
     background-position: center;
 }
@@ -213,7 +213,7 @@ p  {
 
 footer {
   
- background-image: url(/img/fondo.jpg);
+ background-image: url(img/fondo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
