@@ -65,30 +65,6 @@ body{
     color:#404040 ;
 }
 
-@media (max-width: 768px) {
-    .card-presentacion {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .foto-perfil img {
-        width: 200px;
-        height: 200px;
-    }
-
-    header nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    .mi {
- flex-direction: column;
-        text-align: center;
-}
-    .mi p {
-        text-align: center;
-        color:#404040 ;
-    }
-}
 
 h1 {
   font-family: "Castoro Titling", serif;
@@ -255,4 +231,44 @@ footer p {
     margin: 0;
     font-size: 16px;
     color: #F2F2F2;
+}
+
+@media (max-width: 768px) {
+
+    header nav ul {
+       font-size: 14px;
+       justify-content: center;
+       gap:10px
+
+    }
+
+nav ul li {
+       text-align: center;
+    }
+
+    .card-presentacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-perfil img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .mi {
+    height: 250px;
+    }
+   
+    .fotos-galeria img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {
+       font-size: 14px;
+       justify-content: center;
+       gap:10px
+    }
+
 }
